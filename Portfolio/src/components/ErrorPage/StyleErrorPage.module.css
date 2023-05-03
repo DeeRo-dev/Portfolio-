@@ -10,9 +10,7 @@
     width: 50%;
     display: flex;
     flex-direction: column;
-    width: 100%;
     text-align: center;
-    /* margin-left: 230px !important; */
 }
 .contentIconsTitle{
     display: flex;
@@ -34,4 +32,28 @@
     display: flex;
     flex-direction: row;
     background: '#FFFFFF';
+}
+ /* RESPONSIVE TABLET */
+
+ @media screen and (min-width:480px) and (max-width:900px){}
+        .content{
+            flex-direction: column;
+        }
+  /* RESPONSIVE Telephone */
+@media screen and (max-width:480px){
+    .content{
+        flex-direction: column;
+        width: 100%;
+    }
+    .contentLinks{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    }
+    .contentIconsTitle{
+        flex-direction: column;
+    }
+    .img{
+        width: 200px;
+    }
 }

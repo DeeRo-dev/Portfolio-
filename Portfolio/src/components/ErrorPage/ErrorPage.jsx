@@ -23,7 +23,7 @@ export const ErrorPage = () => {
         </div>
         </div>
       <div className={style.contentImg} >
-        <img className={style.contentImg} src={gif}/>
+        <img className={style.img} src={gif}/>
       </div>
     </div>
   )
